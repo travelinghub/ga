@@ -1,7 +1,8 @@
-name: CI
-jobs:
-  build:
-    runs-on: ubuntu-latest
-    steps:
-      - name: printing a message
-        run: 'echo "Hello, world!"'
+ name: CI
+ on: workflow_dispatch
+ jobs:
+  firt-job:
+     runs-on: ubuntu-latest
+     steps:
+       - name: printing a message
+         run: 'echo "Hello, world!"'
