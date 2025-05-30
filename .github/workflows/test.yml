@@ -1,0 +1,7 @@
+name: CI
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: printing a message
+        run: 'echo "Hello, world!"'
